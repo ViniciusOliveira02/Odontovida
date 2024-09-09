@@ -17,4 +17,4 @@ UPDATE Tratamento
 SET valor_total - custo_total
 WHERE tratamento_id = NEW.tratamento_id;
 END//
-DELIMITER;
+DELIMITER ;
